@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Landing page</title>
+  <link rel="shortcut icon" type="image" href="C:\Users\Mustansir\Documents\html\house-solid.svg">
+  <link  href="C:\Users\Mustansir\Documents\html\user-solid.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="C:\Users\Mustansir\Documents\html\index.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+<form id="myform" name="myform" onsubmit="return Validrom()" >
+ <label for="textfield" id="mylabel">Username</label>
+ <div class="fontuser">
+  <input type="text" name="textfield" id="textfield" class="textfield" placeholder=" Enter your username" required="required" minlength="2" maxlength="10"> <h4 style="display: none;" id="thirdh4">*Invalid</h4>
+  </div>                                                                                                             
+<label for="mypassword" id="yourlabel">Password</label>
+ <input type="password" name="mypassword" id="mypassword" placeholder=" Enter your password"required="required">
+ <label for="myemail" id="ourlabel">Email</label>
+ <input type="email" name="myemail" id="myemail" placeholder=" eg-123@mail.com"required="required" maxlength="16" minlength="15">
+ <label for="myphone" id="yeslabel">Phone</label>
+ <input type="tel" name="myphone" id="myphone" placeholder=" eg-123456789"required="required" maxlength="10" minlength="10"><h4 id="fourthh4" style="display: none;">*Numbers only</h4> 
+ <select value="Cities" id="cities" name="cities" required="required">
+  <option value="Vadodara" name="cities" id="Vadodara">Vadodara</option>
+  <option value="Ahemdabad" name="cities" id="Ahemdabad">Ahemdabad</option>
+  <option value="Surat" name="cities" id="Surat">Surat</option>
+ </select>
+
+ <input type="submit" id="mysubmit" name="mysubmit" value=" Next"  >
+ 
+</form>
+
+<div id="myvalid" style="display: none;"><p>Hatim-1979</p></div>
+<div id="yourid" style="display: none;"><p>Hatim@21</p></div>
+
+
+<script src="C:\Users\Mustansir\Documents\html\index.js"></script>
+ </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

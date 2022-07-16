@@ -1,0 +1,147 @@
+title{
+ font-size: 20px;
+ font-style: italic;
+}
+body{
+ background-color: burlywood;
+ margin-top: 40px;
+}
+#myform{
+ background-color: #fff;
+ width: 600px;
+ height: 500px;
+ position: absolute;
+ left: 30%;
+ border-radius: 20px;
+
+}
+#textfield{
+ position: absolute;
+ top: 5%;
+ left: 15%;
+ width: 400px;
+ height: 30px;
+
+
+}
+#mylabel{
+ font-size: 20px;
+ font-weight: bold;
+ position: absolute;
+ left: 15%;
+
+}
+#mypassword{
+ position: absolute;
+ top: 20%;
+ left: 15%;
+ width: 400px;
+ height: 30px;
+
+}
+#yourlabel{
+ font-size: 20px;
+ font-weight: bold;
+ position: absolute;
+ left: 15%;
+ top: 15%;
+ 
+}
+#myemail{
+ position: absolute;
+ top: 35%;
+ left: 15%;
+ width: 400px;
+ height: 30px;
+
+}
+#ourlabel{
+ font-size: 20px;
+ font-weight: bold;
+ position: absolute;
+ left: 15%;
+ top: 30%;
+}
+#myphone{
+ position: absolute;
+ top: 50%;
+ left: 15%;
+ width: 400px;
+ height: 30px;
+
+}
+#yeslabel{
+ font-size: 20px;
+ font-weight: bold;
+ position: absolute;
+ left: 15%;
+ top: 45%;
+}
+#cities{
+ position: absolute;
+ top: 65%;
+ left: 15%;
+ width: 400px;
+ height: 30px;
+ cursor: pointer;
+}
+#mysubmit{
+ font-size: 20px;
+ background-color: paleturquoise;
+ border-radius: 5px;
+ position: absolute;
+ top: 90%;
+ left: 9%;
+ width: 500px;
+ border-radius: 10px;
+ 
+}
+#thirdh4{
+ color: red;
+ position: absolute;
+ top: 1%;
+ left: 83%;
+}
+#fourthh4{
+ color: red;
+ position: absolute;
+ top: 45%;
+ left: 83%;
+}
+#great{
+ width: 400px;
+ height: 200px;
+ border-radius: 10px;
+}
+#btn-1{
+ font-size: 40px;
+ border-radius: 10px;
+ background-color: transparent;
+ border: none;
+ cursor: pointer;
+ position: absolute;
+ top: 3%;
+ left: 90%;
+}
+#btn-2{
+ display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
